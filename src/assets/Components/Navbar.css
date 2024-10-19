@@ -1,0 +1,145 @@
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.navbar-image{
+    position: absolute;
+    z-index: 10;
+    width: 71vw;
+    height: 80vh;
+    border-radius: 15px;
+    margin-top: 670px;
+}
+
+.navbar-background{
+    margin-top: 700px;
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    margin-bottom: -13px;
+    z-index: 1;
+}
+
+
+.container-fluid{
+    position: absolute;
+    z-index: 20;
+    top: 70px;
+    right: 25vw;
+    display: flex;
+    background: fixed;
+}
+.logo{
+    color: rgb(0, 1, 1);
+    font-size: 50px;
+    background-color: transparent;
+    margin-right: 400px;
+    margin-top: 0px;
+    font-weight: 800;
+    font-family:sans-serif;
+    color: red;
+}
+.form-control{
+    background-color: white;
+    color: black;
+    width: 18vw;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 5vh;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid grey;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 5vw;
+    font-size: 15px;
+    margin-top: 15px;
+    height: 5vh;
+    margin-right: -120px;
+    border-radius: 5px;
+}
+.subheading{
+    position: absolute;
+    z-index: 20;
+    right: 54vw;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    background: fixed;
+}
+.para1{
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+.para2{
+    background-color: transparent;
+    font-size: 38px;
+    margin: 0px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.para3{
+    background-color: transparent;
+    font-size: 27px;
+    margin: 0px;
+    font-weight: 900; 
+    color: rgb(255, 29, 29);
+}
+.png{
+    background: transparent;
+    width: 415px;
+    margin-top: -150px;
+}
+.main{
+    display: flex;
+}
+.social-media{
+    color: white;
+    position: absolute;
+    z-index: 20;
+    right: 15vw;
+    top: 420px;
+    display: flex;
+    flex-direction: column;
+    background: fixed;
+}
+.rotate {
+    display: inline-block;
+    transform: rotate(-90deg); 
+    background-color: transparent;
+    margin: -6px;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    font-family:fantasy;
+}
+.linkedin{
+    width: 25px;
+    border-radius: 100%;
+    margin-bottom: 8px;
+}
+.rotate2{
+    display: inline-block;
+    transform: rotate(-90deg); 
+}
+.rotate1{
+    background: transparent;
+    text-align: center;
+    margin: -3px;
+    font-weight: 900;
+}
+.links{
+    background-color: transparent;
+}
+
